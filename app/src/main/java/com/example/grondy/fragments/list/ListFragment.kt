@@ -37,10 +37,7 @@ class ListFragment : Fragment() {
         view.floatingActionButton.setOnClickListener {
             findNavController().navigate(R.id.action_listFragment_to_addListFragment)
         }
-        view.listLayout.setOnClickListener {
 
-            findNavController().navigate(R.id.action_listFragment_to_updateListFragment)
-        }
         //set menu
         setHasOptionsMenu(true)
         return view
